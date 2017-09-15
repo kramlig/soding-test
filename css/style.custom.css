@@ -1,0 +1,211 @@
+    .contentwrapper .subcontent ul li{
+        list-style: none;
+        font-weight: bold;
+        /*padding: 10px;*/
+    }
+
+    .contentwrapper .subcontent ul li em{
+        font-weight: normal;
+    }
+
+    .subcontent .left{
+        float: left;
+        width: 50%;
+    }
+
+    .subcontent .right{
+        float: right;
+         width: 35%;
+    }
+
+    .subcontent ul li input{
+        background: #fcfcfc none repeat scroll 0 0;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        box-shadow: 0 1px 3px #ddd inset;
+        color: #666;
+        padding: 8px 5px;
+        vertical-align: middle;
+        margin-left: 40px;
+        width: 275px;
+    }
+
+    .newsfeed {
+        padding: 0px 140px;
+    }
+
+    .getright{
+        float: right;
+        width: 50%;
+    }
+
+    .getleft{
+        /*color: blue;*/
+        width: 50%;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    form input[type="email"] {
+    background: #fcfcfc none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px #ddd inset;
+    color: #666;
+    padding: 8px 5px;
+    vertical-align: middle;
+    width: 85%;
+    }
+
+    .headermenu li a span.icon-create-temp {
+        background: rgba(0, 0, 0, 0) url("../images/icons/blogperfume/Themes/themes-32.png") no-repeat scroll center center;
+    }
+
+    .headermenu li a span.icon-newconcern{
+        background: rgba(0, 0, 0, 0) url("../images/icons/blogperfume/Advertisment/advertisment-32.png") no-repeat scroll center center;
+    }
+
+    .headermenu li a span.icon-activeconcern{
+        background: rgba(0, 0, 0, 0) url("../images/icons/blogperfume/Archive/archive-32.png") no-repeat scroll center center;
+    }
+
+    .headermenu li a span.icon-searchconcern{
+        background: rgba(0, 0, 0, 0) url("../images/icons/blogperfume/Views/views-32.png") no-repeat scroll center center;
+    }
+
+    .headermenu li a span.icon-dashboard{
+        background: rgba(0, 0, 0, 0) url("../images/icons/blogperfume/Article/article-32.png") no-repeat scroll center center;
+    }
+
+    /*.ui-button-text-only .ui-button-text { padding: 0px !important; }
+
+    a.btn_orange .ui-button-text span {    margin-left: 0px !important;
+    padding: 7px !important; }*/
+
+.cc-selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+
+.cc-selector-2 input{
+    position:absolute;
+    z-index:999;
+}
+
+.visa{background-image:url(http://i.imgur.com/lXzJ1eB.png);}
+.mastercard{background-image:url(http://i.imgur.com/SJbRQF7.png);}
+
+.mad{background-image:url(../images/mad.gif););}
+.smiley{background-image:url(../images/smile.gif););}
+
+.cc-selector-2 input:active +.drinkcard-cc, .cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector-2 input:checked +.drinkcard-cc, .cc-selector input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkcard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;height:70px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+/* Extras */
+a:visited{color:#888}
+a{color:#444;text-decoration:none;}
+p{margin-bottom:.3em;}
+
+.extractbtn{
+    
+    float: right;
+    margin-bottom: 20px;
+}
+
+.dateranged {
+     padding-top: 37px !important;
+}
+
+.contenttitle2, .widgetbox .title {
+    padding-top: 35px;
+}
+
+.stdform .align_left{
+    float: left;
+    margin: 0;
+}
+
+.stdform .align_right{
+    float: right;
+    margin: 0;
+}
+
+.stdform .clear{
+    clear: both;
+}
+
+.one-half{
+    width: 50%;
+}
+
+label em {
+    color: red;
+}
+
+.commi_logo{
+    padding: 20px 100px 15px;
+    font-size: 45px;
+    font-weight: bold;
+    border-bottom: 2px solid #fb9337;
+}
+
+.commi_img {
+    padding: 40px;
+}
+
+.selectMinWidth0 {
+    min-width: 0;
+}
+
+form input[type=number] {
+    padding: 8px 5px;
+    border: 1px solid #ccc;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #fcfcfc;
+    vertical-align: middle;
+    -moz-box-shadow: inset 0 1px 3px #ddd;
+    -webkit-box-shadow: inset 0 1px 3px #ddd;
+    box-shadow: inset 0 1px 3px #ddd;
+    color: #666;
+}
+
+form input.error {
+    border: 1px solid #f00;
+}
+
+.acknowledge-btn {
+    float: right;
+    margin-top: 20px;
+}
+
+.widgetbox.one-half.align-left {
+    float: left;
+}
