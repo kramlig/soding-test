@@ -14,6 +14,7 @@
 						<th>Task Name</th>
 						<th>Task Description</th>
 						<th>Date Created</th>
+						<th>Date Updated</th>
 						<th>Action</th>
 					</tr>
 				</thead>
@@ -34,6 +35,9 @@
 							</td>
 							<td>
 								<label id="<?= $a->id ?>"><?= $a->dateCreated ?></label>
+							</td>
+							<td>
+								<label id="<?= $a->id ?>"><?= $a->dateUpdated ?></label>
 							</td>
 							<td class="text-center">
 								<?php
@@ -126,12 +130,6 @@
 
 						jQuery.post(url+'index.php/task/update', {id:id, name:name, desc:desc}, function(r){
 							setTimeout(location.reload(true), 3000);
-							// alert("d2");
-				        	// jQuery(".lblfield_name."+id).text(name);
-				        	// jQuery(".lblfield_desc."+id).text(desc);
-				        	// jQuery(".inputfield").css("display","none");
-				        	// jQuery(".inputfield").css("display","none");
-        					// jQuery(".lblfield."+id).css("display","block");
 				        	
 						}, 'json');         
 
